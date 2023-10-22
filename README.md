@@ -38,8 +38,7 @@ docker-compose up -d fastapi-service
 Теперь FastAPI сервис будет доступен на порту 8000.
 ## Примеры использования
 Для получения вопросов из публичного API и их сохранения в базе данных PostgreSQL, выполните следующий запрос:
-```
-bash
+```bash
 curl -X POST "http://localhost:8000/" -H "accept: application/json" -H "Content-Type: application/json" -d '{"questions_num":1}'
 ```
 
